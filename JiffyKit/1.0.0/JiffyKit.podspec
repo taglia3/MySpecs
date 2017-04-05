@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
     LICENSE
   }
   s.author           = { "m.tagliafico" => "m.tagliafico@reply.it" }
-  s.source           = { :git => "https://github.com/taglia3/Jiffykit.git", :tag => s.version }
+  s.source           = { :git => "git@github.com:taglia3/Jiffykit.git", :tag => s.version }
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
